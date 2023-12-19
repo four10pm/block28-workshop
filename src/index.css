@@ -91,11 +91,12 @@ body > div {
 
 .footerbar {
   display: flex; 
-  justify-content: center;
-  position: sticky; 
+  width: 100%;
+  position: fixed; 
   background: lightgray;
   padding: 5px;
   bottom: 0;
+  justify-content: center;
 }
 
 .footer {

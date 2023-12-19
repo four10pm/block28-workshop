@@ -31,9 +31,7 @@ function App() {
             <Route path="/violet" element={<Violet />} />
           </Routes >
         </div>
-        
         <Footer />
-   
       </div>
     </>
   )
