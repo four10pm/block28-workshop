@@ -11,15 +11,14 @@ import Indigo from './components/indigo'
 import Violet from './components/violet'
 import Home from './components/home'
 import Navbar from './components/navbar'
+import Footer from './components/footer'
 
 function App() {
 
   return (
     <>
       <div id="container">
-        <div id="navbar">
           <Navbar />
-        </div>
         <div id="main-section">
           <Routes >
             <Route path="/" element={<Home />} />
@@ -32,6 +31,9 @@ function App() {
             <Route path="/violet" element={<Violet />} />
           </Routes >
         </div>
+        
+        <Footer />
+   
       </div>
     </>
   )

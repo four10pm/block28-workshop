@@ -63,12 +63,14 @@ body > div {
 
 .home {
   background-image: linear-gradient(to bottom, red,orange,yellow,green,blue,indigo,violet);
-  color: white; 
+  color: white;
+  position: relative;  
 }
 
 .navbar {
   display: flex; 
-  
+  justify-content: space-around;
+  position: relative; 
 }
 
 .nav {
@@ -76,4 +78,20 @@ body > div {
   margin: 5px; 
   border: 2px outset lightgray;
   text-decoration: none; 
+}
+
+.footerbar {
+  display: flex; 
+  justify-content: center;
+  position: sticky; 
+  background: lightgray;
+  padding: 5px;
+  bottom: 0;
+}
+
+.footer {
+  margin: 2px;
+  background-color: lightgray;
+  background-image: none;
+
 }
