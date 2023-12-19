@@ -30,35 +30,43 @@ body > div {
 .red {
   background-color: #b05f6d;
   color: white;
+  border-color: #b05f6d;
 }
 
 .orange {
   background-color: orange; 
   color: white;
+  border-color: orange; 
 }
 
 .yellow {
   background-color: yellow;
   color: white; 
+  border-color: yellow; 
 }
 
 .green { 
   background-color: green;
   color: white; 
+  border-color: green; 
 }
 
 .blue {
   background-color: #275db3;
   color: white;
+  border-color: #275db3;
 }
 
 .indigo {
   background-color: indigo;
   color: white; 
+  border-color: indigo; 
 }
+
 .violet {
   background-color: purple;
   color: white; 
+  border-color: purple; 
 }
 
 .home {
@@ -76,7 +84,8 @@ body > div {
 .nav {
   padding: 10px; 
   margin: 5px; 
-  border: 2px outset lightgray;
+  border-style: outset;
+  border-width: 2px;
   text-decoration: none; 
 }
 
